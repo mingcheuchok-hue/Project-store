@@ -1,0 +1,13 @@
+/* src/App.css */
+@keyframes scrollLeftToRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
+
+.animate-scroll-left-to-right {
+  animation: scrollLeftToRight 40s linear infinite;
+}
